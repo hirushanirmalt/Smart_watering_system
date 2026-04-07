@@ -2,14 +2,14 @@
 #include <ArduinoMqttClient.h>
 
 // WiFi Credentials
-const char ssid[] = "TelstraA4F1D3";
-const char pass[] = "b29t6urac8";
+const char ssid[] = "wifissid";
+const char pass[] = "wifipassword";
 
 // Adafruit IO MQTT
 const char* broker = "io.adafruit.com";
 const int port = 1883;
 const char* username = "Thilakarathne";
-const char* aioKey = "aio_ZTqo33yvRPEKNsnH5MOH5BfQj9tQ";
+const char* aioKey = "aiokey";
 const char* topic = "Thilakarathne/feeds/moisture_data";
 
 // Sensor pin
