@@ -4,20 +4,20 @@
 #include <HttpClient.h>
 
 // WiFi
-const char ssid[] = "TelstraA4F1D3";
-const char pass[] = "b29t6urac8";
+const char ssid[] = "wifissid";
+const char pass[] = "wifipassword";
 
 // MQTT (Adafruit IO)
 const char* broker = "io.adafruit.com";
 const int port = 1883;
 const char* username = "Thilakarathne";
-const char* aioKey = "aio_ZTqo33yvRPEKNsnH5MOH5BfQj9tQ";
+const char* aioKey = "aiokey";
 const char* topicManual = "Thilakarathne/feeds/manual_water";
 const char* topicMoisture = "Thilakarathne/feeds/moisture_data";
 
 // IFTTT
 const char* iftttHost = "maker.ifttt.com";
-const char* iftttKey = "j5_3DTKaNLGAJwCDTKcFb_lw2mrGK6GQCuF1EfurPby";
+const char* iftttKey = "iftttkey";
 
 // REST
 const char* restHost = "io.adafruit.com";
